@@ -101,38 +101,6 @@ Symbol Table Management<br>
 
 # 📈 Future Improvements<br>
 Implement Code Optimization<br>
-Build a GUI Interface<br>
 Extend support for full programming language syntax<br>
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome. Feel free to fork this repository and submit a pull request.
-
----
-
-# 📜 License
-
-This project is open-source and available under the MIT License.
-
----
-
-## Supported Grammar (summary)
-
-```
-program     → statement*
-statement   → funcDecl | classDecl | varDecl | ifStmt | whileStmt
-            | forStmt | returnStmt | throwStmt | tryStmt
-            | breakStmt | continueStmt | block | exprStmt
-expr        → assignment → ternary → logical → equality
-            → relational → additive → multiplicative
-            → unary → postfix → call → primary
-primary     → literal | identifier | "(" expr ")" | "[" … "]"
-            | "{" … "}" | "new" call | arrowFunc
-```
----
-
-
 
 ---
